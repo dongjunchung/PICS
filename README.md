@@ -1,4 +1,3 @@
-# PICS
 PICS: Pathway-Guided Identification of Cancer Subgroups
 ===
 
@@ -12,7 +11,7 @@ To install the development version of PICS, it's easiest to use the 'devtools' p
 ```
 #install.packages("devtools")
 library(devtools)
-install_github("sunny-zq/PICS")
+install_github("dongjunchung/PICS")
 ```
 
 Usage
