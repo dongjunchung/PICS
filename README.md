@@ -1,36 +1,36 @@
-PICS: Pathway-Guided Identification of Cancer Subgroups
+InGRiD: Integrative Genomics Robust iDentification of cancer subgroups
 ===
 
-PICS is a statistical approach to improve prediction of cancer subgroups and identification of key genes and pathways by integrating information from biological pathway databases.
+InGRiD is a statistical approach to improve prediction of cancer subgroups and identification of key genes and pathways by integrating information from biological pathway databases.
 
 Installation
 ===========
 
-To install the development version of PICS, it's easiest to use the 'devtools' package.
+To install the development version of InGRiD, it's easiest to use the 'devtools' package.
 
 ```
 #install.packages("devtools")
 library(devtools)
-install_github("dongjunchung/PICS")
+install_github("dongjunchung/INGRID")
 ```
 
 Usage
 ===========
 
-The R package vignette will provide a good start point for the genetic analysis using PICS package, including the overview of PICS package and the example command lines:
+The R package vignette will provide a good start point for the genetic analysis using INGRID package, including the overview of INGRID package and the example command lines:
 
 ```
-library(PICS)
-vignette("PICS-example")
+library(INGRID)
+vignette("INGRID-example")
 ```
-The following two help pages will also provide quick references for PICS package and the example command lines:
+The following two help pages will also provide quick references for INGRID package and the example command lines:
 
 ```
-package?PICS
-class?PICS
+package?INGRID
+class?INGRID
 ```
 
 References
 ==========
 
-Wei W, Sun Z, da Silveira WA, Yu Z, Lawson A, Hardiman G, Kelemen LE, and Chung D (2017), "PICS: Pathway-guided identification of cancer subgroups."
+Wei W, Sun Z, da Silveira WA, Yu Z, Lawson A, Hardiman G, Kelemen LE, and Chung D (2017), "Semi-supervised Identification of Cancer Subgroups using Survival Outcomes and Overlapping Grouping Information."
